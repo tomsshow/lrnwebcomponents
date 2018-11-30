@@ -1,0 +1,13 @@
+{
+  "name": "<%= name %>",
+  "description": "<%= description %>",
+  "version": "<%= version %>",
+  "author": "<%= author %>",
+  "license": "<%= license %>",
+  "main": "webcomponents/es6/build.js",
+  "module": "webcomponents/amd/build.amd.js",
+  "flat": true,
+  "dependencies": {
+<%- dependencies %>
+  }
+}
